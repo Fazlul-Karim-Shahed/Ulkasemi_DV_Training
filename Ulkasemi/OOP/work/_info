@@ -1,0 +1,138 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/fazlu/OneDrive/Desktop/Ulkasemi/OOP
+vfactory
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+DXx4 work 15 factory_sv_unit 0 22 Q[@VFQ5FCQh:d<hJV2h8C2
+Z2 !s110 1730195132
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 VojPVQ<fFVDcIVnZz`hX72
+IfhRnjLR^EaLgaGGYHO`Zg2
+!s105 factory_sv_unit
+S1
+R0
+Z4 w1730195122
+Z5 8.\factory.sv
+Z6 F.\factory.sv
+!i122 13
+L0 50 14
+Z7 OV;L;2020.1;71
+31
+Z8 !s108 1730195131.000000
+Z9 !s107 .\factory.sv|
+Z10 !s90 .\factory.sv|-sv|
+!i113 1
+o-sv
+Z11 tCvgOpt 0
+Xfactory_sv_unit
+R1
+R2
+VQ[@VFQ5FCQh:d<hJV2h8C2
+r1
+!s85 0
+!i10b 1
+!s100 l42h3E[mL@Gf7U18m=zhf3
+IQ[@VFQ5FCQh:d<hJV2h8C2
+!i103 1
+S1
+R0
+R4
+R5
+R6
+!i122 13
+Z12 L0 3 0
+R7
+31
+R8
+R9
+R10
+!i113 1
+o-sv
+R11
+vmain
+R1
+!s110 1730182818
+!i10b 1
+!s100 F3A>FWX=8_EOV@>b9GoDD1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I1in0j=iijD>Yj;lLQ=P2]0
+R3
+S1
+R0
+w1730182814
+8.\test.sv
+F.\test.sv
+!i122 8
+L0 2 9
+R7
+r1
+!s85 0
+31
+!s108 1730182818.000000
+!s107 .\test.sv|
+!s90 .\test.sv|-sv|
+!i113 1
+o-sv
+R11
+vtop_tb
+R1
+DXx4 work 13 top_tb_v_unit 0 22 gIR`BHFPF0fZGM3ZeZ;FL1
+Z13 !s110 1730201186
+R3
+r1
+!s85 0
+!i10b 1
+!s100 A^Ni7zDd[X;HhiE4hE^ic1
+Iaz:LQQma196dWa4Wc]RZC3
+!s105 top_tb_v_unit
+S1
+R0
+Z14 w1730201178
+Z15 8.\top_tb.v
+Z16 F.\top_tb.v
+!i122 15
+L0 25 9
+R7
+31
+Z17 !s108 1730201185.000000
+!s107 .\top_tb.v|
+Z18 !s90 .\top_tb.v|-sv|
+!i113 1
+o-sv
+R11
+Xtop_tb_v_unit
+R1
+R13
+VgIR`BHFPF0fZGM3ZeZ;FL1
+r1
+!s85 0
+!i10b 1
+!s100 8LfLE_@dY^H5:`ERkTH==2
+IgIR`BHFPF0fZGM3ZeZ;FL1
+!i103 1
+S1
+R0
+R14
+R15
+R16
+!i122 15
+R12
+R7
+31
+R17
+Z19 !s107 .\top_tb.v|
+R18
+!i113 1
+o-sv
+R11

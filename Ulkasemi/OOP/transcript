@@ -1,0 +1,10 @@
+# vsim -c top_tb -do "run -all" 
+# Start time: 17:26:30 on Oct 29,2024
+# Loading sv_std.std
+# Loading work.top_tb_v_unit
+# Loading work.top_tb
+# run -all
+# 0 Test constructed
+# 0 Environment constructed
+# End time: 17:36:17 on Oct 29,2024, Elapsed time: 0:09:47
+# Errors: 0, Warnings: 0

@@ -1,0 +1,9 @@
+# vsim top_train -onfinish stop 
+# Start time: 15:29:45 on Oct 28,2024
+# Loading sv_std.std
+# Loading work.top_train
+add wave -position insertpoint sim:/top_train/*
+run -all
+# Modelsim worked
+# End time: 15:30:31 on Oct 28,2024, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0

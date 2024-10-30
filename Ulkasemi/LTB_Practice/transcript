@@ -1,0 +1,38 @@
+# vsim top_module -onfinish stop 
+# Start time: 09:32:16 on Oct 29,2024
+# Loading sv_std.std
+# Loading work.top_module
+add wave -position insertpoint  \
+sim:/top_module/net_45 \
+sim:/top_module/net_67 \
+sim:/top_module/clk \
+sim:/top_module/rstn \
+sim:/top_module/net_2
+run -all
+# Time	 CLK	 RSTN
+#  NET_45	 NET_67	
+# 0	 0	 0
+#  0	 0	
+# 101	 1	 0
+#  0	 0	
+# 1010	 0	 0
+#  0	 0	
+# 1111	 1	 0
+#  0	 0	
+# 10100	 0	 0
+#  1	 1	
+# 11001	 1	 0
+#  1	 1	
+# 11110	 0	 1
+#  0	 0	
+# 100011	 1	 1
+#  0	 0	
+# 101000	 0	 1
+#  1	 1	
+# 101101	 1	 1
+#  1	 1	
+# ** Note: $stop    : ./top_module.sv(27)
+#    Time: 50 ps  Iteration: 0  Instance: /top_module
+# Break in Module top_module at ./top_module.sv line 27
+# End time: 09:36:34 on Oct 29,2024, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 0

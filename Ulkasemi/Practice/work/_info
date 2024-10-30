@@ -1,0 +1,114 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/fazlu/OneDrive/Desktop/Ulkasemi/Practice
+vabstraction
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 DXx4 work 19 abstraction_sv_unit 0 22 e>5e<LB=@X;1mP^WbVTPm0
+Z3 !s110 1730223360
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 N;z7bGIKX`YKQbhSiQ9Rz3
+I746g6G69fI]oz]l`nQ8e>0
+Z5 !s105 abstraction_sv_unit
+S1
+R0
+Z6 w1730223353
+Z7 8.\abstraction.sv
+Z8 F.\abstraction.sv
+!i122 26
+Z9 L0 21 8
+Z10 OV;L;2020.1;71
+31
+Z11 !s108 1730223360.000000
+Z12 !s107 .\abstraction.sv|
+Z13 !s90 .\abstraction.sv|-sv|
+!i113 1
+o-sv
+Z14 tCvgOpt 0
+Xabstraction_sv_unit
+R1
+R3
+Ve>5e<LB=@X;1mP^WbVTPm0
+r1
+!s85 0
+!i10b 1
+!s100 ^?g=9NJ^[1Z8KOnf[Do];1
+Ie>5e<LB=@X;1mP^WbVTPm0
+!i103 1
+S1
+R0
+R6
+R7
+R8
+!i122 26
+Z15 L0 2 0
+R10
+31
+R11
+R12
+R13
+!i113 1
+o-sv
+R14
+XClass_sv_unit
+R1
+!s110 1730220449
+Vo6VX]I=BW4_hUZKGHg0g?1
+r1
+!s85 0
+!i10b 1
+!s100 G9E75n:>kGZknFZ=72iM=0
+Io6VX]I=BW4_hUZKGHg0g?1
+!i103 1
+S1
+R0
+w1730220059
+8.\Class.sv
+F.\Class.sv
+!i122 23
+R15
+R10
+31
+!s108 1730220449.000000
+!s107 .\Class.sv|
+!s90 .\Class.sv|-sv|
+!i113 1
+o-sv
+R14
+n@class_sv_unit
+vtop
+R1
+R2
+!s110 1730223337
+R4
+r1
+!s85 0
+!i10b 1
+!s100 >N@1M>]P5>NSWMc:@iWfS2
+I=ca?RoVGjZT=gA1mP_F5B1
+R5
+S1
+R0
+w1730223329
+R7
+R8
+!i122 25
+R9
+R10
+31
+!s108 1730223337.000000
+R12
+R13
+!i113 1
+o-sv
+R14

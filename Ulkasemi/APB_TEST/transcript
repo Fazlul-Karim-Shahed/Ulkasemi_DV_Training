@@ -1,0 +1,220 @@
+# vsim tb_top -onfinish stop 
+# Start time: 19:08:52 on Oct 30,2024
+# Loading sv_std.std
+# Loading work.filelist_sv_unit
+# Loading work.tb_top
+# Loading work.apb_interface
+add wave -position insertpoint  \
+sim:/tb_top/inf1/PCLK \
+sim:/tb_top/inf1/PRESETn \
+sim:/tb_top/inf1/PADDR \
+sim:/tb_top/inf1/PSEL \
+sim:/tb_top/inf1/PENABLE \
+sim:/tb_top/inf1/PWRITE \
+sim:/tb_top/inf1/PWDATA \
+sim:/tb_top/inf1/PRDATA
+run -all
+# 0 APB Base test constructed
+# 0 APB Environment constructed
+# 0 APB Scoreboard constructed
+# 0 APB Agent constructed
+# 0 APB Driver constructed
+# 0 APB Packet constructed
+# 0 APB Monitor constructed
+# 0 APB Packet constructed
+# 0 Task compiled
+# ** Note: $finish    : tb_top.sv(19)
+#    Time: 21 ns  Iteration: 0  Instance: /tb_top
+# Break in Module tb_top at tb_top.sv line 19
+add wave -position insertpoint  \
+sim:/tb_top/inf1/PCLK \
+sim:/tb_top/inf1/PRESETn \
+sim:/tb_top/inf1/PADDR \
+sim:/tb_top/inf1/PSEL \
+sim:/tb_top/inf1/PENABLE \
+sim:/tb_top/inf1/PWRITE \
+sim:/tb_top/inf1/PWDAT
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/inf1/PWDAT'.
+
+
+
+
+
+vlog ./filelist.sv -sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:18:18 on Oct 30,2024
+# vlog -reportprogress 300 ./filelist.sv -sv 
+# -- Compiling interface apb_interface
+# ** Warning: apb_packet.sv(3): (vlog-13233) Design unit "filelist_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+# -- Compiling package filelist_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 19:18:18 on Oct 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -c tb_top -do "run -all"
+# End time: 19:19:01 on Oct 30,2024, Elapsed time: 0:10:09
+# Errors: 0, Warnings: 0
+# vsim -c tb_top -do "run -all" 
+# Start time: 19:19:01 on Oct 30,2024
+# Loading sv_std.std
+# Loading work.filelist_sv_unit
+# Loading work.tb_top
+# Loading work.apb_interface
+# run -all
+# 0 APB Base test constructed
+# 0 APB Environment constructed
+# 0 APB Scoreboard constructed
+# 0 APB Agent constructed
+# 0 APB Driver constructed
+# 0 APB Packet constructed
+# 0 APB Monitor constructed
+# 0 APB Packet constructed
+# 0 Task compiled
+# ** Note: $finish    : tb_top.sv(19)
+#    Time: 21 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at tb_top.sv line 19
+vsim -c tb_top
+# End time: 19:19:39 on Oct 30,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim -c tb_top 
+# Start time: 19:19:39 on Oct 30,2024
+# Loading sv_std.std
+# Loading work.filelist_sv_unit
+# Loading work.tb_top
+# Loading work.apb_interface
+add wave -position insertpoint  \
+sim:/tb_top/inf1/PCLK \
+sim:/tb_top/inf1/PRESETn \
+sim:/tb_top/inf1/PADDR \
+sim:/tb_top/inf1/PSEL \
+sim:/tb_top/inf1/PENABLE \
+sim:/tb_top/inf1/PWRITE \
+sim:/tb_top/inf1/PWDATA \
+sim:/tb_top/inf1/PRDATA
+run -all
+# 0 APB Base test constructed
+# 0 APB Environment constructed
+# 0 APB Scoreboard constructed
+# 0 APB Agent constructed
+# 0 APB Driver constructed
+# 0 APB Packet constructed
+# 0 APB Monitor constructed
+# 0 APB Packet constructed
+# 0 Task compiled
+# ** Note: $finish    : tb_top.sv(19)
+#    Time: 21 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at tb_top.sv line 19
+vlog ./filelist.sv -sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:22:12 on Oct 30,2024
+# vlog -reportprogress 300 ./filelist.sv -sv 
+# -- Compiling interface apb_interface
+# -- Compiling package filelist_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 19:22:12 on Oct 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -c tb_top
+# End time: 19:22:18 on Oct 30,2024, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 0
+# vsim -c tb_top 
+# Start time: 19:22:19 on Oct 30,2024
+# Loading sv_std.std
+# Loading work.filelist_sv_unit
+# Loading work.tb_top
+# Loading work.apb_interface
+run -all
+# 0 APB Base test constructed
+# 0 APB Environment constructed
+# 0 APB Scoreboard constructed
+# 0 APB Agent constructed
+# 0 APB Driver constructed
+# 0 APB Packet constructed
+# 0 APB Monitor constructed
+# 0 APB Packet constructed
+# 0 Task compiled
+# ** Note: $finish    : tb_top.sv(19)
+#    Time: 11 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at tb_top.sv line 19
+add wave -position insertpoint sim:/tb_top/inf1/*
+run -all
+vlog ./filelist.sv -sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:23:34 on Oct 30,2024
+# vlog -reportprogress 300 ./filelist.sv -sv 
+# -- Compiling interface apb_interface
+# -- Compiling package filelist_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 19:23:35 on Oct 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim tb_top
+# End time: 19:23:46 on Oct 30,2024, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 19:23:46 on Oct 30,2024
+# Loading sv_std.std
+# Loading work.filelist_sv_unit
+# Loading work.tb_top
+# Loading work.apb_interface
+add wave -position insertpoint sim:/tb_top/inf1/*
+run -all
+# 0 APB Base test constructed
+# 0 APB Environment constructed
+# 0 APB Scoreboard constructed
+# 0 APB Agent constructed
+# 0 APB Driver constructed
+# 0 APB Packet constructed
+# 0 APB Monitor constructed
+# 0 APB Packet constructed
+# 0 Task compiled
+# ** Note: $finish    : tb_top.sv(19)
+#    Time: 20 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at tb_top.sv line 19
+add wave -position insertpoint sim:/tb_top/inf1/*
+vlog ./filelist.sv -sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:24:52 on Oct 30,2024
+# vlog -reportprogress 300 ./filelist.sv -sv 
+# -- Compiling interface apb_interface
+# -- Compiling package filelist_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 19:24:52 on Oct 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# End time: 19:25:00 on Oct 30,2024, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 19:25:00 on Oct 30,2024
+# Loading sv_std.std
+# Loading work.filelist_sv_unit
+# Loading work.tb_top
+# Loading work.apb_interface
+add wave -position insertpoint sim:/tb_top/inf1/*
+run -all
+# 0 APB Base test constructed
+# 0 APB Environment constructed
+# 0 APB Scoreboard constructed
+# 0 APB Agent constructed
+# 0 APB Driver constructed
+# 0 APB Packet constructed
+# 0 APB Monitor constructed
+# 0 APB Packet constructed
+# 0 Task compiled
+# ** Note: $finish    : tb_top.sv(19)
+#    Time: 11 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at tb_top.sv line 19

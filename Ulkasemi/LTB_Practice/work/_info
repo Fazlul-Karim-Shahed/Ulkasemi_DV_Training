@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/fazlu/OneDrive/Desktop/Ulkasemi/LTB_Practice
+vmain
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1730172631
+!i10b 1
+!s100 _;H0N?IhNOgg_D1?JA1=@3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IO<MbVAjAMR9K^5l[>^DO32
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1730172628
+8.\main.sv
+F.\main.sv
+!i122 0
+L0 4 25
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1730172631.000000
+!s107 .\main.sv|
+!s90 .\main.sv|-sv|
+!i113 1
+o-sv
+Z5 tCvgOpt 0
+vtop_module
+R1
+!s110 1730172650
+!i10b 1
+!s100 7Nd6H29[VlTfaJ]O6[DSN2
+R2
+IK1RTXTGUg=fj7T>Y0ZN^g3
+R3
+S1
+R0
+w1730172302
+8.\top_module.sv
+F.\top_module.sv
+!i122 1
+L0 2 29
+R4
+r1
+!s85 0
+31
+!s108 1730172650.000000
+!s107 .\top_module.sv|
+!s90 .\top_module.sv|-sv|
+!i113 1
+o-sv
+R5
