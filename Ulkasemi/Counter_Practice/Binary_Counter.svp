@@ -1,0 +1,81 @@
+// Four-bit binary counter with parallel load
+module Binary_Counter(
+	output reg [3: 0] 	A_count,	// Data output
+	output 			C_out,		// Output carry
+	input [3:0] 		Data_in,	// Data input
+	input 			Enable,		// Activate the circuit
+	input 			Count,		// Active high to count
+	input 			Load,		// Active high to load
+	input 			CLK,		// Positive-edge sensitive
+	input 			reset		// Active low
+);
+`pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "ModelSim" , encrypt_agent_info = "2020.1"
+`pragma protect key_keyowner = "Mentor Graphics Corporation" , key_keyname = "MGC-VERIF-SIM-RSA-2"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = ( enctype = "base64" , line_length = 64 , bytes = 256 )
+`pragma protect key_block
+i0fAROTm0G5DPriPwegmiyZMNTMoQrvNL5jeTsmKT2OJpIdhPOXU9VDu7YxGW+/x
+E491t4ic4uTy1oZSl6SscSoGGeGwTMOEnmzf8f9SPsVB00s9i7t4NPd81XyczOCC
+ivzRMIVV28MQ1C3jbwUW+VA5gpgyyxdJgp/AXleYkwv0yO8iP80qqEuAGucb0JxA
+9N5r+0iPg3RHefRfgvY0QRD6BZRY4Rabf02UVLyPMDePMOD/lKDeSaqjJkv+qNsz
+eP6sCHBZcj+L/coRv8zR0PvANPbvW3ubOEMtEPa8/jAfYIhERd966ia3HZocXDj0
++hUyYM9+OLHsRDSn5ZUQmw==
+`pragma protect data_method = "aes128-cbc"
+`pragma protect encoding = ( enctype = "base64" , line_length = 64 , bytes = 640 )
+`pragma protect data_block
+GQAAHqDlUyoMYRAGQlZhpwX6flAyj7EaXc800iM8tAmXmMC4Su/wOZQ1UAa0NMv+
+Ym9O0Uk/Q4O69lC0hG9aoLjxsHkc19cqjGTjE4TijsWu15y1E6qSNHJI+E4n8QxW
+Dd+v5Int2qGANGF6Drvf4NgzhbmCRP4hyHCa5/kgTSFx12vcbr3nx7zC9+/8ZsDD
+YwHhaCgQkYNXZoT2Z8ElntmmeMfP8ASRAJIou/ifrLCg7jWfc9l3WXzSH6afTkST
+lnT3vZO3iqLjV1fQbLJQqdAc+JcjS7EGWutBPksgGdujwr99lbXAkb+gzKwNfL93
+6sbjrGjRkGx2OOPAkywFKfNepecFR+BtUOdwW3YvtAfFe7C2kQQGzkEbL7i6QhyW
+aMapRpGXMYM1JSh/BgSgMAhYnk9bq5R5Q8AoYa7p1T5/sCEQ2zyZAUxSdaRlKv/k
+53SwFwjVz3Gy/AeE+hvunohk6Tuz4x8pnmafQxWKe5WU4m05/c0RbZjykl6lciFS
+TGXUQqxnuRScsF6E7mCmIZwki5gVCIafeEBzFcXSjklIdV8B7p4WNroA1+hPPb6Q
+ngD4TDdU8UU0x2Eez4HMXNf7zyWoE/NcfoF7BeDOklcDuYbtBuXD9Z8RAr0OO03f
+QU4H1EUk/lkmGZkIAoo0ZaOJCuoDEYiSZJd0inPmbvDximHgc5OuTNFYRZscLksi
+C3HRbQz+O5Yyv4BmYpAACwkgQ7Uy6hLOtQ8O2IySx7yvWa0XsKus6MwyeA4XJldJ
+qxsbcB3F8CXpLfRKRE3ErypWrma9v6HtKheA65MCuS8siAgxAAchgpVsuE0I4xKR
+iV9mM47nPiQQJlds5O0eUw==
+`pragma protect end_protected
+
+endmodule
+
+
+/*
+// ----------------- SPECIFICATION ----------------- //
+
+* This is Four-bit binary counter Circuit have following functions:
+	1. Load data into register
+	2. Up-counting operation
+	3. Down-counting operation
+
+// Signal Descriptions
+-----------------------
+
+* A_count is an output data signal of 4 bits width
+* C_out is an output data signal of 1 bits width, its an output carry
+
+* Data_in is an input data signal of 4 bits width
+
+* Enable, Load, Count are control signals
+
+// Circuit Functionality
+-------------------------
+
+* Active Low reset signal which resets circuit when reset = 0
+
+* Enable = 0, then the circuit keeps its current state
+  Enable = 1, then load, up-counting and down-counting operations will work
+
+* Load = 0, then the circuit keeps its current state
+  Load = 1, then load Data_in data into the circuit
+  
+* Count = 0, down-counts the current data, -1
+  Count = 1, up-counts the current data, +1
+
+*/
+
+

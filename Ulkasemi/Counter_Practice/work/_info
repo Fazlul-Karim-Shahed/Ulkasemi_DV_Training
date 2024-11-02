@@ -1,0 +1,129 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/fazlu/OneDrive/Desktop/Ulkasemi/Counter_Practice
+Yapb_interface
+Z1 !s105 filelist_sv_unit
+Z2 DXx4 work 16 filelist_sv_unit 0 22 =UgWcA]9D5E;g0D3Y:?N42
+Z3 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z4 !s110 1730556811
+!i10b 1
+!s100 [f3`ESj?L8Zl7V?[6l5ZE1
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5_@:OP<W;JAVFKKUTj=NQ3
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1730455320
+8apb_interface.sv
+Z7 Fapb_interface.sv
+!i122 105
+L0 2 0
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1730556811.000000
+!s107 tb_top.sv|apb_base_test.sv|apb_environment.sv|apb_scoreboard.sv|apb_agent.sv|apb_monitor.sv|apb_driver.sv|apb_packet.sv|apb_interface.sv|Binary_Counter.svp|.\filelist.sv|
+Z10 !s90 .\filelist.sv|-sv|
+!i113 1
+o-sv
+Z11 tCvgOpt 0
+vBinary_Counter
+R1
+R2
+R3
+R4
+!i10b 1
+!s100 CCNgWzHBGVSK4h6J>oHCI3
+R5
+INI5TKO7nhi>h;Y:@1idjS0
+R6
+!i119 1
+S1
+R0
+w1730453053
+8Binary_Counter.svp
+Z12 FBinary_Counter.svp
+!i122 105
+L0 2 23
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 tb_top.sv|apb_base_test.sv|apb_environment.sv|apb_scoreboard.sv|apb_agent.sv|apb_monitor.sv|apb_driver.sv|apb_packet.sv|apb_interface.sv|Binary_Counter.svp|.\filelist.sv|
+R10
+!i113 1
+o-sv
+R11
+n@binary_@counter
+Xfilelist_sv_unit
+!s115 apb_interface
+R3
+R4
+V=UgWcA]9D5E;g0D3Y:?N42
+r1
+!s85 0
+!i10b 1
+!s100 iN]^I@FT<5fTSCc=LU>Vo2
+I=UgWcA]9D5E;g0D3Y:?N42
+!i103 1
+S1
+R0
+w1730556796
+8.\filelist.sv
+F.\filelist.sv
+R12
+R7
+Fapb_packet.sv
+Fapb_driver.sv
+Fapb_monitor.sv
+Fapb_agent.sv
+Fapb_scoreboard.sv
+Fapb_environment.sv
+Fapb_base_test.sv
+Z14 Ftb_top.sv
+!i122 105
+L0 3 0
+R8
+31
+R9
+R13
+R10
+!i113 1
+o-sv
+R11
+vtb_top
+R3
+R2
+R4
+R6
+r1
+!s85 0
+!i10b 1
+!s100 J^d1^Jm5Ok>PzWG>1WeK41
+IJ<ElPk0<S?YAKU4>oHP]g0
+R1
+S1
+R0
+w1730556491
+8tb_top.sv
+R14
+!i122 105
+L0 4 36
+R8
+31
+R9
+R13
+R10
+!i113 1
+o-sv
+R11
