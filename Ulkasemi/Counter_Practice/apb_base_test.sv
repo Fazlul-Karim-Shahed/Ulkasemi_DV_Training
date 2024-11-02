@@ -23,7 +23,7 @@ class apb_base_test;
 	
 		
 		//env.agent.driver.apb_count(data, 20, 1, 1, 1);
-		env.agent.driver.apb_count(data, 20, 1, 1, 1);
+		env.agent.driver.apb_count(data, 20, 1, 1, 0);
 	
 	endtask
 

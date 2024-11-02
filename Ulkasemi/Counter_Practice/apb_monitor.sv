@@ -17,7 +17,7 @@ class apb_monitor;
 		
 		forever begin
 		
-			@(posedge inf.clk);
+			@(negedge inf.clk);
 			
 			if(inf.resetn === 1'b1) begin
 			

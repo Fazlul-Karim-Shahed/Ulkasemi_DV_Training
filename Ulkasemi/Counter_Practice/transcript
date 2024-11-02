@@ -1,37 +1,36 @@
 # vsim -c tb_top -do "run -all" 
-# Start time: 20:13:38 on Nov 02,2024
+# Start time: 21:55:19 on Nov 02,2024
 # Loading sv_std.std
 # Loading work.filelist_sv_unit
 # Loading work.tb_top
 # Loading work.apb_interface
 # Loading work.Binary_Counter
 # run -all
-# 25000 :: Scoreboard:: data_in: 5, enable: 1, load: 1, count: 0 ===> Expected ::  Data_in: 5, C_out: 0, Actual::  A_OUT :  0, C_OUT:  0
-# 35000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 6, C_out: 0, Actual::  A_OUT :  5, C_OUT:  0
-# 45000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 7, C_out: 0, Actual::  A_OUT :  6, C_OUT:  0
-# 55000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 8, C_out: 0, Actual::  A_OUT :  7, C_OUT:  0
-# 65000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 9, C_out: 0, Actual::  A_OUT :  8, C_OUT:  0
-# 75000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 10, C_out: 0, Actual::  A_OUT :  9, C_OUT:  0
-# 85000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 11, C_out: 0, Actual::  A_OUT :  10, C_OUT:  0
-# 95000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 12, C_out: 0, Actual::  A_OUT :  11, C_OUT:  0
-# 105000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 13, C_out: 0, Actual::  A_OUT :  12, C_OUT:  0
-# 115000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 14, C_out: 0, Actual::  A_OUT :  13, C_OUT:  0
-# 125000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 15, C_out: 1, Actual::  A_OUT :  14, C_OUT:  0
-# 135000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 0, C_out: 0, Actual::  A_OUT :  15, C_OUT:  1
-# 145000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 1, C_out: 0, Actual::  A_OUT :  0, C_OUT:  0
-# 155000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 2, C_out: 0, Actual::  A_OUT :  1, C_OUT:  0
-# 165000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 3, C_out: 0, Actual::  A_OUT :  2, C_OUT:  0
-# 175000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 4, C_out: 0, Actual::  A_OUT :  3, C_OUT:  0
-# 185000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 5, C_out: 0, Actual::  A_OUT :  4, C_OUT:  0
-# 195000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 6, C_out: 0, Actual::  A_OUT :  5, C_OUT:  0
-# 205000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 7, C_out: 0, Actual::  A_OUT :  6, C_OUT:  0
-# 215000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 8, C_out: 0, Actual::  A_OUT :  7, C_OUT:  0
-# 225000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 9, C_out: 0, Actual::  A_OUT :  8, C_OUT:  0
-# 235000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 1 ===> Expected ::  Data_in: 10, C_out: 0, Actual::  A_OUT :  9, C_OUT:  0
+# 30000 :: Scoreboard:: data_in: 5, enable: 1, load: 1, count: 0 ===> Expected ::  Data_in: 5, C_out: 0, Actual::  A_OUT :  5, C_OUT:  0
+# 40000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 4, C_out: 0, Actual::  A_OUT :  4, C_OUT:  0
+# 50000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 3, C_out: 0, Actual::  A_OUT :  3, C_OUT:  0
+# 60000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 2, C_out: 0, Actual::  A_OUT :  2, C_OUT:  0
+# 70000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 1, C_out: 0, Actual::  A_OUT :  1, C_OUT:  0
+# 80000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 0, C_out: 0, Actual::  A_OUT :  0, C_OUT:  0
+# 90000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 15, C_out: 1, Actual::  A_OUT :  15, C_OUT:  0
+# 100000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 14, C_out: 0, Actual::  A_OUT :  14, C_OUT:  0
+# 110000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 13, C_out: 0, Actual::  A_OUT :  13, C_OUT:  0
+# 120000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 12, C_out: 0, Actual::  A_OUT :  12, C_OUT:  0
+# 130000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 11, C_out: 0, Actual::  A_OUT :  11, C_OUT:  0
+# 140000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 10, C_out: 0, Actual::  A_OUT :  10, C_OUT:  0
+# 150000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 9, C_out: 0, Actual::  A_OUT :  9, C_OUT:  0
+# 160000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 8, C_out: 0, Actual::  A_OUT :  8, C_OUT:  0
+# 170000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 7, C_out: 0, Actual::  A_OUT :  7, C_OUT:  0
+# 180000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 6, C_out: 0, Actual::  A_OUT :  6, C_OUT:  0
+# 190000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 5, C_out: 0, Actual::  A_OUT :  5, C_OUT:  0
+# 200000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 4, C_out: 0, Actual::  A_OUT :  4, C_OUT:  0
+# 210000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 3, C_out: 0, Actual::  A_OUT :  3, C_OUT:  0
+# 220000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 2, C_out: 0, Actual::  A_OUT :  2, C_OUT:  0
+# 230000 :: Scoreboard:: data_in: 5, enable: 1, load: 0, count: 0 ===> Expected ::  Data_in: 1, C_out: 0, Actual::  A_OUT :  1, C_OUT:  0
 # =============================================================================================
-# 240000 Total Count :: 22, Passed Count ::: 0, Total Failed Count :::          22
+# 240000 Total Count :: 21, Passed Count ::: 21, Total Failed Count :::           0
 # =============================================================================================
 # ** Note: $finish    : tb_top.sv(34)
 #    Time: 240 ns  Iteration: 0  Instance: /tb_top
-# End time: 20:13:38 on Nov 02,2024, Elapsed time: 0:00:00
+# End time: 21:55:19 on Nov 02,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
